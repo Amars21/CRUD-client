@@ -1,0 +1,42 @@
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 700px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.card input{
+  width: 120px;
+  height: 20px;
+  margin-top: 30px;
+}
+.card ul{
+  margin-top: 30px;
+}
+#delete{
+  color: red;
+}
+#edit{
+  color:coral;
+}
+
